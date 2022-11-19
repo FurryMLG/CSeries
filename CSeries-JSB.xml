@@ -61,8 +61,8 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<!-- MAX: 400lbs, two pilots-->
 			<location name="POINTMASS" unit="IN">
 				<x>200</x>
-				<y>0</y>
-				<z>0</z>
+				
+				
 			</location>
 		</pointmass>
 		<pointmass name="Engine 1">
@@ -86,8 +86,8 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<!-- MAX: 13200lbs, 60 seats -->
 			<location name="POINTMASS" unit="IN">
 				<x>470.1711</x>
-				<y>0</y>
-				<z>0</z>
+				
+				
 			</location>
 		</pointmass>
 		<pointmass name="PAX 0B (60 seats)">
@@ -95,8 +95,8 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<!-- MAX: 13200lbs, 60 seats -->
 			<location name="POINTMASS" unit="IN">
 				<x>809.5669</x>
-				<y>0</y>
-				<z>0</z>
+				
+				
 			</location>
 		</pointmass>
 		<pointmass name="PAX 0C (54 seats)">
@@ -104,8 +104,8 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<!-- MAX: 11880lbs, 54 seats -->
 			<location name="POINTMASS" unit="IN">
 				<x>1163.2729</x>
-				<y>0</y>
-				<z>0</z>
+				
+				
 			</location>
 		</pointmass>
 		<pointmass name="Cargo Hold 1">
@@ -113,7 +113,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<!-- MAX: 7500.126lbs -->
 			<location name="POINTMASS" unit="IN">
 				<x>383.4792</x>
-				<y>0</y>
+				
 				<z>-29.5</z>
 				<!-- 1.5m and now half of it for the center point of the load -->
 			</location>
@@ -124,7 +124,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<!-- MAX: 5384.414lbs -->
 			<location name="POINTMASS" unit="IN">
 				<x>849.1324</x>
-				<y>0</y>
+				
 				<z>-29.5</z>
 			</location>
 		</pointmass>
@@ -133,7 +133,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<!-- MAX: 4651.754lbs -->
 			<location name="POINTMASS" unit="IN">
 				<x>931.0653</x>
-				<y>0</y>
+				
 				<z>-29.5</z>
 			</location>
 		</pointmass>
@@ -142,8 +142,8 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<!-- MAX: 3300.320lbs -->
 			<location name="POINTMASS" unit="IN">
 				<x>1068.2634</x>
-				<y>0</y>
-				<z>0</z>
+				
+				
 				<!-- Cargo Hold #5 sits higher on the range of the cabin deck, it's only loadable with lifter -->
 			</location>
 		</pointmass>
@@ -567,7 +567,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 		<tank type="FUEL">    <!-- LEFT FUEL PIPES (Engine 1 feed from this) -->
 			<location unit="IN">
 				<x>589.735</x>	
-				<y>0</y>
+				
 				<z>-45.567</z>
 			</location>
 			<capacity unit="LBS"> 100 </capacity><!-- need review -->
@@ -578,7 +578,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 		<tank type="FUEL">    <!-- RIGHT FUEL PIPES (Engine 2 feed from this) -->
 			<location unit="IN">
 				<x>589.735</x>	
-				<y>0</y>
+				
 				<z>-45.567</z>
 			</location>
 			<capacity unit="LBS"> 100 </capacity><!-- need review -->
@@ -602,13 +602,13 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 		<force name="pushback" frame="BODY">
 			<location unit="IN">
 				<x>294</x>
-				<y>0</y>
+				
 				<z>-149</z>
 			</location>
 			<direction>
 				<x>1</x>
-				<y>0</y>
-				<z>0</z>
+				
+				
 			</direction>
 		</force>
 	</external_reactions>

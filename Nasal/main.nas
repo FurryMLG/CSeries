@@ -16,7 +16,7 @@ var bleedL=getprop("/controls/pneumatic/l-bleed");
 var bleedR=getprop("/controls/pneumatic/r-bleed");
 var bleedA=getprop("/controls/pneumatic/APU-bleed");
 
-if(bleedL==1 and getprop("/engines/engine/n1")>=50 ){
+if(bleedL==1 and getprop("/engines/engine[0]/n1")>=50 ){
     setprop("controls/pneumatic/bleed-source", 1);
 }else if(bleedR == 1 and getprop("/engines/engine[1]/n1") >=50 ){
     setprop("controls/pneumatic/bleed-source", 3);
@@ -58,7 +58,7 @@ setprop("/controls/APU/knob2", getprop("/controls/APU/off-on"));
 setprop("/controls/APU/knob", 0);
 };
 #set bleed automatically
-#if(getprop("/controls/electric/engine/generator")){
+#if(getprop("/controls/electric/engine[0]/generator")){
 #setprop("/controls/pneumatic/bleed-air", 1);
 #}else if(getprop("/controls/electric/APU-generator")){
 #setprop("/controls/pneumatic/bleed-air", 2);

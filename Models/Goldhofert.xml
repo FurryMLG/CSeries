@@ -47,8 +47,8 @@
    </center>
    <axis>
      <x>-1</x>
-     <y>0</y>
-     <z>0</z>
+     
+     
    </axis>
  </animation>
 
@@ -110,9 +110,9 @@
      <z-m>0.5809</z-m>
    </center>
    <axis>
-     <x>0</x>
+     
      <y>1</y>
-     <z>0</z>
+     
    </axis>
  </animation>
 
@@ -128,9 +128,9 @@
      <z-m>0.5735</z-m>
    </center>
    <axis>
-     <x>0</x>
+     
      <y>1</y>
-     <z>0</z>
+     
    </axis>
  </animation>
 
@@ -158,8 +158,8 @@
      <z-m>0</z-m>
    </center>
    <axis>
-     <x>0</x>
-     <y>0</y>
+     
+     
      <z>1</z>
    </axis>
  </animation>
@@ -176,8 +176,8 @@
       <z-m>0</z-m>
     </center>
     <axis>
-      <x>0</x>
-      <y>0</y>
+      
+      
       <z>1</z>
     </axis>
   </animation>
@@ -188,8 +188,8 @@
     <property>gear/gear[0]/compression-m</property>
     <factor>1</factor>
     <axis>
-      <x>0</x>
-      <y>0</y>
+      
+      
       <z>1</z>
     </axis>
   </animation>
@@ -223,8 +223,8 @@
     </interpolation>
     <axis>
       <x>-1</x>
-      <y>0</y>
-      <z>0</z>
+      
+      
     </axis>
   </animation>
     <animation>
@@ -254,9 +254,9 @@
       <entry><ind>0.000000</ind><dep>25.000000</dep></entry>
     </interpolation>
      <axis>
-       <x>0</x>
+       
        <y>-1</y>
-       <z>0</z>
+       
      </axis>
    </animation>
     <!-- compensate for pitch of aircraft, keep pushback level -->
@@ -270,9 +270,9 @@
        <z-m>0</z-m>
      </center>
      <axis>
-       <x>0</x>
+       
        <y>1</y>
-       <z>0</z>
+       
      </axis>
    </animation>
   </PropertyList>

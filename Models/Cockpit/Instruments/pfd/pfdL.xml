@@ -16,7 +16,7 @@
      <subtype>textranslate</subtype>
      <factor>0.00475</factor>
      <axis>
-       <x>0</x>
+       
        <y>1</y>
      </axis>
    </transform>
@@ -29,8 +29,8 @@
 		<!-- <z>0.000128</z> -->
      </center>
      <axis>
-       <x>0</x>
-       <y>0</y>
+       
+       
        <z>-1</z>
      </axis>
    </transform>
@@ -816,8 +816,8 @@ G</text>
 		<property alias="/params/ias-40" />		
 		<factor>-0.000880</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>	
 	</animation>
@@ -1860,7 +1860,7 @@ G</text>
 		</condition>
 		<factor>0.001344299</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>
@@ -1878,7 +1878,7 @@ G</text>
 			</condition>
 			<factor>0.001344299</factor>
 			<axis>
-				<x>0</x>
+				
 				<y>1</y>
 			</axis>
 		</transform>
@@ -1888,7 +1888,7 @@ G</text>
 			<factor>0.0625</factor>
 			<axis>
 				<x>1</x>
-				<y>0</y>
+				
 			</axis>
 		</transform>
 	</animation>
@@ -1921,7 +1921,7 @@ G</text>
 		<property>autopilot/internal/speed-bug-difference-kt</property>
 		<factor>0.00224</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>
@@ -1941,7 +1941,7 @@ G</text>
 		<property>autopilot/internal/mach-bug-difference-kt</property>
 		<factor>0.00224</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>-->
@@ -1955,7 +1955,7 @@ G</text>
                         <property>orientation/pitch-deg2</property>
 			<factor>0.004</factor>
 			<axis>
-				<x>0</x>
+				
 				<y>1</y>
 			</axis>
 		</transform>
@@ -1963,8 +1963,8 @@ G</text>
 			<subtype>texrotate</subtype>
                         <property>orientation/roll-deg</property>
 			<axis>
-				<x>0</x>
-				<y>0</y>
+				
+				
 				<z>-1</z>
 			</axis>
 			<center>
@@ -1979,8 +1979,8 @@ G</text>
 		<property alias="../../params/indicated-roll-deg" />
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>
@@ -2010,8 +2010,8 @@ G</text>
 		<property alias="../../params/indicated-pitch-deg" />
 		<factor>0.001466</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>-1</z>
 		</axis>
 	</animation>
@@ -2021,8 +2021,8 @@ G</text>
 		<property>autopilot/internal/target-pitch-deg</property>
 		<factor>0.001466</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>
 	</animation>
@@ -2032,8 +2032,8 @@ G</text>
 		<property alias="../../params/indicated-roll-deg" />
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>
@@ -2047,8 +2047,8 @@ G</text>
 		<property>autopilot/internal/target-roll-deg</property>
 		<axis>
 			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>
@@ -2080,9 +2080,9 @@ G</text>
 		<property>instrumentation/nav[0]/heading-needle-deflection-norm</property>
 		<factor>0.026</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 	</animation>
 
@@ -2109,8 +2109,8 @@ G</text>
 		<property>instrumentation/nav[0]/gs-needle-deflection-norm</property>
 		<factor>0.02191</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>
 	</animation>
@@ -2136,8 +2136,8 @@ G</text>
 			<entry><ind>1000</ind><dep>-0.0295</dep></entry>
 		</interpolation>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>
 	</animation>-->
@@ -2200,7 +2200,7 @@ G</text>
 		<property alias="../../params/indicated-altitude-ft" />
 		<factor>0.001</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>
@@ -2210,7 +2210,7 @@ G</text>
 		<property alias="../../params/indicated-altitude-ft" />
 		<factor>0.0003048</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>
@@ -2222,7 +2222,7 @@ G</text>
 		<min>-0.499023437</min>
 		<max>0.499023437</max>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>
@@ -2234,7 +2234,7 @@ G</text>
 		<min>-0.499023437</min>
 		<max>0.499023437</max>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>
@@ -2246,7 +2246,7 @@ G</text>
 		<min>-0.499023437</min>
 		<max>0.499023437</max>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>-->
@@ -2269,8 +2269,8 @@ G</text>
 		<property alias="/params/dhptr" />
 		<factor>0.0000162</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>		
 	</animation>	
@@ -2280,7 +2280,7 @@ G</text>
 		<property alias="/params/radar-altitude-ft" />
 		<factor>0.00009765625</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
 		</axis>
 	</animation>
@@ -2290,14 +2290,14 @@ G</text>
 		<object-name>hsi.hdg</object-name>
 		<property>instrumentation/magnetic-compass/indicated-heading-deg</property>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>-1</z>
 		</axis>
 		<center>
 			<x>0.5</x>
 			<y>0.5</y>
-			<z>0</z>
+			
 		</center>
 	</animation>
 	<animation>
@@ -2306,8 +2306,8 @@ G</text>
 		<property>controls/autoflight/heading-select</property>
 		<axis>
 			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>
@@ -2328,8 +2328,8 @@ G</text>
 		<property>instrumentation/adf[0]/indicated-bearing-deg</property>
 		<axis>
 			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>
@@ -2350,8 +2350,8 @@ G</text>
 		<property>instrumentation/adf[1]/indicated-bearing-deg</property>
 		<axis>
 			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>
@@ -2374,8 +2374,8 @@ G</text>
 		<property>instrumentation/nav[0]/radials/selected-deg</property>
 		<axis>
 			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>
@@ -2389,9 +2389,9 @@ G</text>
 		<property>instrumentation/nav[0]/heading-needle-deflection-norm</property>
 		<factor>0.0175</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 	</animation>
 
@@ -2410,8 +2410,8 @@ G</text>
 		</interpolation>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>
@@ -2441,8 +2441,8 @@ G</text>
 		</interpolation>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<center>
 			<x-m>0</x-m>

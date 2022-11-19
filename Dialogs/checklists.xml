@@ -327,7 +327,7 @@
       <value>Greater or equals 21%</value>
       <condition>
           <greater-than-equals>
-		<property>engines/engine/rpm</property>
+		<property>engines/engine[0]/rpm</property>
                 <value>21</value>
             </greater-than-equals>
       </condition>
@@ -440,7 +440,7 @@
       <value>LEFT and RIGHT ON</value>
       <condition>
           <equals>
-		<property>controls/electric/engine/generator</property>
+		<property>controls/electric/engine[0]/generator</property>
                 <value>1</value>
             </equals>
           <equals>
@@ -450,7 +450,7 @@
       </condition>
       <binding>
         <command>property-assign</command>
-		<property>controls/electric/engine/generator</property>
+		<property>controls/electric/engine[0]/generator</property>
         <value>1</value>
       </binding>
       <binding>

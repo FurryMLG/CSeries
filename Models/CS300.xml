@@ -91,12 +91,12 @@
 		<type>spin</type>
 		<object-name>fanL</object-name>
 		<object-name>spinnerL</object-name>
-                <property>engines/engine/n1</property>
+                <property>engines/engine[0]/n1</property>
 		<factor>67</factor>
 		<axis>
 			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
                 <center>
 			<y-m>-5.536</y-m>
@@ -108,12 +108,12 @@
 		<type>spin</type>
 		<object-name>fanR</object-name>
 		<object-name>spinnerR</object-name>
-                <property>engines/engine/n1</property>
+                <property>engines/engine[0]/n1</property>
 		<factor>67</factor>
 		<axis>
 			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
                 <center>
 			<y-m>5.536</y-m>
@@ -130,8 +130,8 @@
                 <property>gear/gear/compression-m</property>
 		<factor>1</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>
 	</animation>
@@ -141,9 +141,9 @@
                 <property>gear/gear/compression-m</property>
 		<factor>80</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-15.76147</x-m>
@@ -156,9 +156,9 @@
                 <property>gear/gear/compression-m</property>
 		<factor>-80</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-15.61225</x-m>
@@ -174,8 +174,8 @@
                 <property>gear/gear/compression-m</property>
 		<factor>1</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>
 	</animation>
@@ -185,9 +185,9 @@
                 <property>gear/gear/compression-m</property>
 		<factor>80</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-0.53269</x-m>
@@ -200,9 +200,9 @@
                 <property>gear/gear/compression-m</property>
 		<factor>-80</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-0.38197</x-m>
@@ -218,8 +218,8 @@
                 <property>gear/gear/compression-m</property>
 		<factor>1</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>
 	</animation>
@@ -229,9 +229,9 @@
                 <property>gear/gear/compression-m</property>
 		<factor>80</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-0.53269</x-m>
@@ -244,9 +244,9 @@
                 <property>gear/gear/compression-m</property>
 		<factor>-80</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-0.38197</x-m>
@@ -260,9 +260,9 @@
                 <property>gear/gear/rollspeed-ms</property>
 		<factor>10</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>-1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-15.75911</x-m>
@@ -275,9 +275,9 @@
                 <property>gear/gear[1]/rollspeed-ms</property>
 		<factor>10</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>-1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-0.55741</x-m>
@@ -290,9 +290,9 @@
                 <property>gear/gear[2]/rollspeed-ms</property>
 		<factor>10</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>-1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-0.55741</x-m>
@@ -311,9 +311,9 @@
 		<offset-deg>108</offset-deg>
 		<factor>-108</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
                 <center>
 			<x-m>-15.75171</x-m>
@@ -333,8 +333,8 @@
 		<factor>-90</factor>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
                 <center>
 			<y-m>-2.36542</y-m>
@@ -353,8 +353,8 @@
 		<factor>90</factor>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
                 <center>
 			<y-m>2.36542</y-m>

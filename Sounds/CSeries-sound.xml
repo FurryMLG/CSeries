@@ -22,11 +22,11 @@
 					<property>gear/gear[2]/wow</property>	
 					
 					<greater-than>
-						<property>engines/engine/rpm</property>
+						<property>engines/engine[0]/rpm</property>
 						<value>30</value>
 					</greater-than> 
 					<less-than>
-						<property>engines/engine/rpm</property>
+						<property>engines/engine[0]/rpm</property>
 						<value>60</value>
 					</less-than>
 				</and>
@@ -76,11 +76,11 @@
 					<property>gear/gear[2]/wow</property>	
 					
 					<greater-than>
-						<property>engines/engine/rpm</property>
+						<property>engines/engine[0]/rpm</property>
 						<value>30</value>
 					</greater-than> 
 					<less-than>
-						<property>engines/engine/rpm</property>
+						<property>engines/engine[0]/rpm</property>
 						<value>60</value>
 					</less-than>
 				</and>
@@ -164,7 +164,7 @@
 			<position>
 				<x>1</x>
 				<y>-3</y>
-				<z>0</z>
+				
 			</position>
 		</speedbrake>
 		<speedbrake>
@@ -178,7 +178,7 @@
 			<position>
 				<x>1</x>
 				<y>3</y>
-				<z>0</z>
+				
 			</position>
 		</speedbrake> -->
 		<!-- Switch effects -->
@@ -870,7 +870,7 @@
 			<!--orientation>
 				<x>-1</x>
 				<y>0.01</y>
-				<z>0</z>
+				
 				<inner-angle>75</inner-angle>
 				<outer-angle>210</outer-angle>
 				<outer-gain>0.1</outer-gain>
@@ -910,7 +910,7 @@
 			<!--orientation>
 				<x>1</x>
 				<y>0.01</y>
-				<z>0</z>
+				
 				<inner-angle>75</inner-angle>
 				<outer-angle>210</outer-angle>
 				<outer-gain>0.1</outer-gain>
@@ -979,7 +979,7 @@
 			<!--orientation>
 				<x>-1</x>
 				<y>0.01</y>
-				<z>0</z>
+				
 				<inner-angle>75</inner-angle>
 				<outer-angle>210</outer-angle>
 				<outer-gain>0.1</outer-gain>
@@ -1019,7 +1019,7 @@
 			<!--orientation>
 				<x>1</x>
 				<y>0.01</y>
-				<z>0</z>
+				
 				<inner-angle>75</inner-angle>
 				<outer-angle>210</outer-angle>
 				<outer-gain>0.1</outer-gain>
@@ -1089,7 +1089,7 @@
 			<!--orientation>
 				<x>-1</x>
 				<y>0.01</y>
-				<z>0</z>
+				
 				<inner-angle>75</inner-angle>
 				<outer-angle>210</outer-angle>
 				<outer-gain>0.1</outer-gain>
@@ -1131,7 +1131,7 @@
 			<!--orientation>
 				<x>-1</x>
 				<y>0.01</y>
-				<z>0</z>
+				
 				<inner-angle>75</inner-angle>
 				<outer-angle>210</outer-angle>
 				<outer-gain>0.1</outer-gain>

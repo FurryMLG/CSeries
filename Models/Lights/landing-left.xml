@@ -40,8 +40,8 @@
 		<object-name>Light</object-name>
 		<offset-deg>90</offset-deg>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>-1</z>
 		</axis>
 		<center>

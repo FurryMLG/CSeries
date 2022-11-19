@@ -17,8 +17,8 @@
         </center>
         <axis>
             <x>1</x>
-            <y>0</y>
-            <z>0</z>
+            
+            
         </axis>
     </animation>
 
@@ -28,9 +28,9 @@
         <property>instrumentation/slip-skid-ball/indicated-slip-skid</property>
         <factor>0.0020</factor>
         <axis>
-            <x>0</x>
+            
             <y>-1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
 
@@ -42,9 +42,9 @@
      <subtype>textranslate</subtype>
      <factor>0.00475</factor>
      <axis>
-       <x>0</x>
+       
        <y>1</y>
-       <z>0</z>
+       
      </axis>
    </transform>
    <transform>
@@ -55,8 +55,8 @@
        <y>0.50</y>
      </center>
      <axis>
-       <x>0</x>
-       <y>0</y>
+       
+       
        <z>-1</z>
      </axis>
    </transform>

@@ -26,7 +26,7 @@ var altitudeagl = getprop("position/altitude-agl-ft");
 
 
 #Engine power
-var engine1setting = getprop("engines/engine/n1");
+var engine1setting = getprop("engines/engine[0]/n1");
 var engine2setting = getprop("engines/engine[1]/n1");
 
 # Wind speed and position
