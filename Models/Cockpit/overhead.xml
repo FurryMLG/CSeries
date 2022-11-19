@@ -87,9 +87,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -114,9 +114,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -141,9 +141,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -168,9 +168,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -195,9 +195,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <!--Land/taxi lts-->    <animation>
@@ -222,9 +222,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <!--LDG Lights-->    
@@ -250,9 +250,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -277,9 +277,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -304,9 +304,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <!--PAX signs-->
@@ -332,9 +332,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -359,9 +359,9 @@
                 <z-m>0.73965</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <!--ENGINE FIRE-->
@@ -390,9 +390,9 @@
                 <z-m>0.94348</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -432,9 +432,9 @@
                 <z-m>0.94348</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -474,9 +474,9 @@
                 <z-m>0.94348</z-m>
         </center>
         <axis>
-            <x>0</x>
+            
             <y>1</y>
-            <z>0</z>
+            
         </axis>
     </animation>
     <animation>
@@ -512,8 +512,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
     </animation>
 <!--Ram Air Turbine Generator-->
@@ -536,8 +536,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
     </animation>
 
@@ -614,7 +614,7 @@
 	    <repeatable type="bool">false</repeatable>
 	    <binding>
 		<command>property-toggle</command>
-		<property>controls/electric/engine/generator</property>
+		<property>controls/electric/engine[0]/generator</property>
 	    </binding>
 	</action>
     </animation>
@@ -625,8 +625,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
     </animation>
     <animation>
@@ -648,8 +648,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
     </animation>
     <animation>
@@ -690,8 +690,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
     </animation>
     <animation>
@@ -713,8 +713,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
     </animation>
     <animation>
@@ -739,8 +739,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
  		 </transform>
 <!--IN USE-->
@@ -750,8 +750,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
  		 </transform>
     </animation>
@@ -806,8 +806,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
  		 </transform>
 <!--IN USE-->
@@ -817,8 +817,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
  		 </transform>
     </animation>
@@ -844,8 +844,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
  		 </transform>
 <!--IN USE-->
@@ -855,8 +855,8 @@
 		<factor>0.025</factor>
   		<axis>
   	  		<x>1</x>
-  	 		 <y>0</y>
-  	  		<z>0</z>
+  	 		 
+  	  		
   		</axis>
  		 </transform>
     </animation>
@@ -869,7 +869,7 @@
 	    <repeatable type="bool">false</repeatable>
 	    <binding>
 		<command>property-toggle</command>
-		<property>controls/engines/engine/fuel-pump</property>
+		<property>controls/engines/engine[0]/fuel-pump</property>
 	    </binding>
 	</action>
     </animation>

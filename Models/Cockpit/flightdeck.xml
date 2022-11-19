@@ -77,15 +77,15 @@
 		<object-name>throttleL</object-name>
     <object-name>toga1</object-name>
     <object-name>togaswitch1</object-name>
-		<property>/controls/engines/engine/throttle</property>
+		<property>/controls/engines/engine[0]/throttle</property>
                 <condition><not>
-                        <property>/controls/engines/engine/reverser</property></not>
+                        <property>/controls/engines/engine[0]/reverser</property></not>
                     </condition>
 		<factor>-31</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
 			<x-m>-0.14042</x-m>
@@ -97,15 +97,15 @@
 		<object-name>throttleL</object-name>
     <object-name>toga1</object-name>
     <object-name>togaswitch1</object-name>
-		<property>/controls/engines/engine/throttle</property>
+		<property>/controls/engines/engine[0]/throttle</property>
                 <condition>
-                        <property>/controls/engines/engine/reverser</property>
+                        <property>/controls/engines/engine[0]/reverser</property>
                     </condition>
 		<factor>5.78</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
 			<x-m>-0.14042</x-m>
@@ -186,8 +186,8 @@
 		<factor>15</factor>
 		<axis>
 	    <x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
         <center>
       <x-m>-0.4364</x-m>
@@ -221,8 +221,8 @@
 		<factor>15</factor>
 		<axis>
 	    <x>-1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
         <center>
       <x-m>-0.4364</x-m>
@@ -237,12 +237,12 @@
 		<object-name>throttleL</object-name>
     <object-name>toga1</object-name>
     <object-name>togaswitch1</object-name>
-		<property>/controls/engines/engine/reverser</property>
+		<property>/controls/engines/engine[0]/reverser</property>
 		<factor>3.9</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
 			<x-m>-0.14042</x-m>
@@ -260,9 +260,9 @@
                     </condition>
 		<factor>-31</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
 			<x-m>-0.14042</x-m>
@@ -280,9 +280,9 @@
                     </condition>
 		<factor>5.78</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
 			<x-m>-0.14042</x-m>
@@ -298,9 +298,9 @@
 		<property>/controls/engines/engine[1]/reverser</property>
 		<factor>3.9</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
 			<x-m>-0.14042</x-m>
@@ -325,8 +325,8 @@
   </interpolation>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 	</animation>
         <!--Flaps-->
@@ -336,9 +336,9 @@
 		<property>/controls/flight/flaps</property>
 		<factor>29.33</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
                     <x-m>0.1951</x-m>
@@ -417,8 +417,8 @@
 		<property>/controls/engines/start2</property>
 		<factor>-35</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>
 		<center>
@@ -432,8 +432,8 @@
 		<property>/controls/engines/start1</property>
 		<factor>35</factor>
 		<axis>
-			<x>0</x>
-			<y>0</y>
+			
+			
 			<z>1</z>
 		</axis>
 		<center>
@@ -461,9 +461,9 @@
 		<property>/controls/gear/gear-down</property>
 		<factor>80</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
                     <x-m>-0.64398</x-m>
@@ -524,9 +524,9 @@
                                 <property>/controls/gear/alt-gear</property>
 		<factor>40</factor>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
                     <x-m>-0.64035</x-m>
@@ -624,9 +624,9 @@
 		<factor>60</factor>
                 <offset-deg>-60</offset-deg>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
                     <x-m>0.00916</x-m>
@@ -652,9 +652,9 @@
 		<factor>60</factor>
                 <offset-deg>-60</offset-deg>
 		<axis>
-			<x>0</x>
+			
 			<y>1</y>
-			<z>0</z>
+			
 		</axis>
 		<center>
                     <x-m>0.00916</x-m>
@@ -670,8 +670,8 @@
                 <factor>0.1</factor>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 	</animation>
 	<animation>
@@ -682,8 +682,8 @@
 		<factor>-0.06</factor>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<!-- <center>
                     <x-m>0.00916</x-m>
@@ -698,8 +698,8 @@
                 <factor>-0.1</factor>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 	</animation>
 	<animation>
@@ -710,8 +710,8 @@
 		<factor>-0.06</factor>
 		<axis>
 			<x>1</x>
-			<y>0</y>
-			<z>0</z>
+			
+			
 		</axis>
 		<!-- <center>
                     <x-m>0.00916</x-m>
@@ -750,8 +750,8 @@
                 <factor>-0.0015</factor>
                 <axis>
                         <x>1</x>
-                        <y>0</y>
-                        <z>0</z>
+                        
+                        
                 </axis>
         </animation>
         <animation>
@@ -783,8 +783,8 @@
                 <factor>-0.0015</factor>
                 <axis>
                         <x>1</x>
-                        <y>0</y>
-                        <z>0</z>
+                        
+                        
                 </axis>
         </animation>
         <animation>
@@ -816,8 +816,8 @@
                 <factor>-0.0015</factor>
                 <axis>
                         <x>1</x>
-                        <y>0</y>
-                        <z>0</z>
+                        
+                        
                 </axis>
         </animation>
         <!--ND Right-->
@@ -850,8 +850,8 @@
                 <factor>-0.0015</factor>
                 <axis>
                         <x>1</x>
-                        <y>0</y>
-                        <z>0</z>
+                        
+                        
                 </axis>
         </animation>
         <animation>
@@ -883,8 +883,8 @@
                 <factor>-0.0015</factor>
                 <axis>
                         <x>1</x>
-                        <y>0</y>
-                        <z>0</z>
+                        
+                        
                 </axis>
         </animation>
         <animation>
@@ -916,8 +916,8 @@
                 <factor>-0.0015</factor>
                 <axis>
                         <x>1</x>
-                        <y>0</y>
-                        <z>0</z>
+                        
+                        
                 </axis>
         </animation>
         

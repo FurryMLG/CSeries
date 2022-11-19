@@ -409,7 +409,7 @@
                     <desc>Toggle thrust reversers or arm/disarm thrust reversers</desc>
                     <binding>
 			<command>property-toggle</command>
-                        <property>/controls/engines/engine/reverser-cmd</property>
+                        <property>/controls/engines/engine[0]/reverser-cmd</property>
                     </binding>
                     <binding>
 			<command>property-toggle</command>
